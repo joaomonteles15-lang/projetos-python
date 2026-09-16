@@ -22,11 +22,11 @@ Um botão **"Jogar de novo"** sorteia um novo número e reinicia o contador de t
 ## Como rodar
 
 1. Tenha o Python 3 instalado.
-2. Clone este repositório ou baixe o arquivo `jogo_adivinhacao_gui.py`.
+2. Clone este repositório ou baixe o arquivo `jm.py`.
 3. No terminal, dentro da pasta do projeto, rode:
 
    ```bash
-   python jogo_adivinhacao_gui.py
+   python jm.py
    ```
 
 4. A janela do jogo vai abrir automaticamente.
