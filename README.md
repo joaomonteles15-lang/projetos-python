@@ -44,3 +44,42 @@ Um botão **"Jogar de novo"** sorteia um novo número e reinicia o contador de t
 - Adicionar um limite máximo de tentativas
 - Mostrar histórico de palpites já tentados
 - Permitir escolher o intervalo de números (ex: 1 a 1000)
+- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+✊✋✌️ Pedra, Papel e Tesoura
+
+Jogo de pedra, papel e tesoura com interface gráfica feito em Python, usando a biblioteca tkinter.
+
+Como funciona
+
+O jogador escolhe entre Pedra, Papel ou Tesoura clicando em um dos botões. O computador sorteia sua jogada aleatoriamente, e o resultado é exibido na tela:
+
+Pedra vence Tesoura
+Tesoura vence Papel
+Papel vence Pedra
+Jogadas iguais resultam em empate
+
+Um placar acumula vitórias, derrotas e empates ao longo das partidas, com opção de zerar quando quiser.
+
+Tecnologias usadas
+Python 3
+tkinter (interface gráfica, já vem instalado com o Python)
+random (para sortear a jogada do computador)
+Como rodar
+Tenha o Python 3 instalado.
+Clone este repositório ou baixe o arquivo pedra_papel_tesoura_gui.py.
+No terminal, dentro da pasta do projeto, rode:
+bash
+   python pedra_papel_tesoura_gui.py
+A janela do jogo vai abrir automaticamente.
+O que aprendi com esse projeto
+Uso de listas e random.choice() para sorteio
+Lógica condicional combinando múltiplas regras (and / or)
+Uso de dicionários para guardar o placar
+Organização da interface com Frame (containers de widgets)
+Uso de lambda para passar argumentos a funções de botão
+Separação de fontes/tamanhos para evitar que textos "estourem" o layout
+Próximos passos (ideias de melhoria)
+Adicionar imagens em vez de emojis para as jogadas
+Criar um modo "melhor de 5"
+Adicionar efeitos sonoros a cada rodada
